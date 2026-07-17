@@ -59,7 +59,7 @@ public class HelloController {
     @GetMapping("/info")
     public String info() {
         return String.format(
-            "Project: Lab03 Spring Boot | Name: %s | ID: %s | Section: %s",
+            "Project: Lab04 Spring Boot | Name: %s | ID: %s | Section: %s",
             NAME, ID, SECTION
         );
     }
